@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+.bs-product-basic:after {
+  content: "基础数据";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-product-supplies:after {
+  content: "耗材数据";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-product-finish:after {
+  content: "成品数据";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-product-semi-finish:after {
+  content: "半成品数据";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-product-raw_material:after {
+  content: "原料数据";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-product-specification:after {
+  content: "作业要求";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-supplies-finished:after {
+  content: "包装方案";
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+table .btn-danger { padding-top: 0; padding-bottom: 0; }
+table input { width: 100%; }
+.valid_days { line-height: 24px; }
+.notice { color: red; margin-top: 20px; font-size: 16px; }
+.mapping_supplies_product_desc { border: 1px solid #633C21; display: none; padding: 0 5px; position: absolute; max-width: 120px; left: 500px; bottom: 0; margin: 0 0 0 0; line-height: 28px; }
+.triangle_lf { position: absolute; left: -20px; bottom: 8px; width: 0; height: 0; border-top: 4px solid transparent; border-bottom: 4px solid transparent; border-right: 20px solid #633C21; }

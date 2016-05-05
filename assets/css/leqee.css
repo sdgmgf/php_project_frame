@@ -1,0 +1,105 @@
+    .dropdown-menu li a:hover{
+background-color:#ccc;
+    }
+.allprod_stand{
+width:90px;
+text-align:center;
+}
+.oneProd_Standard{
+    width:710px;
+}
+.oneProd_Standard:hover{
+    background-color: #eee;
+}
+.icons{
+    float: right;
+}
+.icons:hover{
+    color:red;
+-webkit-transform:scale(1.1,1.1);
+transform:scale(1.1,1.1); 
+}
+.input_standrad{
+    display: none;
+}
+.picBox{
+    /*width:200px;*/
+    /*border: solid 1px red;*/
+    /*height:230px;*/
+    display: inline-block;
+}
+.pic{
+    width:150px;
+    height:150px;
+    border: solid 1px #ccc;
+    display: inline-block;
+text-align: center;
+}
+.warp_checkbox{
+    line-height: 100px;
+
+    width:10px;
+    position: relative;
+    margin-right: 10px;
+}
+.prod_checkbox{
+    position: absolute;
+    width:15px;
+        top:30px;
+    height:15px;
+}
+
+.img-content{
+    margin-left: 25px;
+}
+.all_choosed{
+    margin-left: 30px;
+}
+.box_prod_standad{
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.add_select{
+    width:100px;
+
+}
+.add_option{
+height:30px;
+line-height: 30px;
+}
+.add{
+
+    margin:10px 20px;
+}
+.input_line{
+    visibility: hidden;
+    position: absolute;
+    left: 180px;
+}
+.already_style{
+    margin: 2px;
+}
+.set_relative{
+    position: relative;
+}
+.already_style:hover{
+    background: url("../img/error.png") center no-repeat;
+}
+img{
+    max-width:150px;
+    max-height: 150px;
+}
+.mian_img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

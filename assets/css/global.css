@@ -1,0 +1,476 @@
+/***********************    global style   *******************/
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+}
+
+img {
+	max-width: 100%;
+	width: auto\9;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+i.fa {
+	margin-right: .5em;
+	font-size: 1.15em;
+	min-width:20px;
+}
+
+span.required {
+	color:#a40000;
+	font-size: 16px;
+	display: inline-block;
+	position: relative;
+	top:5px;
+	left: -2px;
+	font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+/***********************    Individual Bootstrap's element style (jqzhang)   *******************/
+
+.tabpanel {
+	padding-top: 15px;	
+}
+
+.tabpanel .nav-tabs a, .btn, .table, #label-goods-spec, label, span.dao {
+	font-weight: normal ;
+	font-size: 14px ;
+	font-family: "Helvetica Neue",Helvetica,Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif ;
+}
+
+.tabpanel .tab-content {
+	padding:15px;
+}
+
+label ,span.dao{
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	min-width: 90px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: not-allowed;
+}
+
+abbr[data-original-title], abbr[title] {
+	cursor: pointer !important;
+	border-bottom: none !important;
+}
+
+/***********************    Page : Login    *******************/
+
+#body-login {
+	background-color:#f9f7f8;
+	overflow: hidden;
+}
+
+.loginMain {
+	position: relative;
+	top:50%;
+	margin-top:-145px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+	height: 290px;
+}
+
+.loginMain h1 {
+	height: 47px;
+	text-align: center;
+	background: url(../img/h1-bkg.png) repeat-x;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-top:5px;
+}
+
+.loginMain form {
+	border:1px solid #d6d6d6;
+	border-top:none;
+	height:245px;
+	background-color: #ededed;
+	padding-top: 35px;
+	position: relative;
+	top:-22px;
+}
+
+.input-wrap {
+	overflow: hidden;
+	width: 330px;
+	margin:0 auto 25px auto;
+}
+
+.icon-input {
+	display: block;
+	float: left;
+	margin:0;
+}
+
+.loginMain #username, .loginMain #password {
+	margin:0;
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	padding-left: 8px;
+	border:none;
+	outline: none;
+	width: 280px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #dbdbdb;
+	-webkit-box-shadow: 1px 1px 10px #cecece inset;
+			box-shadow: 1px 1px 10px #cecece inset;
+}
+
+.signInBtn {
+	display: block;
+	width: 131px;
+	height: 39px;
+	background:url(../img/btn-login.png);
+	border:none;
+	outline: none;
+	margin:0 auto;
+	cursor: pointer;
+}
+
+.error-tips {
+	position:absolute;
+	top:-5px;
+	left:25px;
+	color:red;
+}
+/***********************    Page : Header    *******************/
+
+#header-wrap {
+	overflow: hidden;
+	position: relative;
+	padding:0 10px;
+	background-color: #f5f8fa;
+}
+
+#header-wrap #title-h1 {
+	position: relative;
+	left: 20px;
+	top:-5px;
+}
+
+#top-nav {
+	position: absolute;
+	top:20px;
+	right: 10px;
+	color:#969696;
+}
+
+#top-nav a {
+	color:#969696;
+	font-size: 14px;
+	display: inline-block;
+	margin:0 20px;
+}
+
+#top-nav a:hover ,#top-nav a:focus,#top-nav a:active{
+	color:#424243;
+	-webkit-transition:color .2s ease-in-out;
+			transition:color .2s ease-in-out;
+	border:none;
+	outline:none;
+}
+
+/***********************     Page : Menu    *******************/
+
+#body-menu {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #dcebf8;
+	
+	padding:0;
+}
+#body-menu  ul {
+	width: 100%;
+	padding:0;
+}
+
+#main-menu {
+	margin:0;
+}
+
+#main-menu li{
+	list-style-type: none;
+	width: 100%;
+}
+
+#main-menu a {
+	color:#424243;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+#main-menu>li {
+	margin:0;
+	padding:0;
+	background-color: #dcebf8;
+	position: relative;
+	-webkit-transition:all .1s ease-in-out;
+			transition:all .1s ease-in-out;
+}
+
+#main-menu>li:hover ,#main-menu>li.active{
+	background-color: #edf4f8;
+}
+
+#main-menu>li i.chevron {
+	display: block;
+	position: absolute;
+	right: 5px;
+	top:15px;
+	font-size: 12px;
+	color:#959595;
+	-webkit-transform-origin: center center;
+       		transform-origin: center center;
+	-webkit-transition:all .3s ease-in-out;
+			transition:all .3s ease-in-out;
+	width: auto;
+	min-width: 0;
+}
+
+#main-menu>li i.chevron.rotate-up {
+	-webkit-transform:rotate3d(0,0,1,90deg);
+			transform:rotate3d(0,0,1,90deg);
+}
+
+#main-menu>li>a {
+	padding-left: 10px;
+	border-bottom: 1px solid #f5f8fa;
+}
+
+#main-menu>li>a.last-child {
+	border-bottom: none;
+}
+
+.sub-menu a {
+	padding-left: 37px;
+	background-color: #edf4f8;
+}
+
+.sub-menu-hidden {
+	display: none;
+}
+
+#main-menu>.has-sub-menu>.sub-menu>li>a.active{
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#main-menu>.has-sub-menu>.sub-menu>.has-sub-menu>a.active{
+	font-weight: bold;
+	background-color: #fff;
+}
+
+#main-menu>.has-sub-menu>.sub-menu>.has-sub-menu>.sub-menu a.active{
+	background: #ccc;
+    border-radius: 14px;
+	/*background-color: #fff;*/
+	font-weight: bold;
+	/*-webkit-transition:all .3s ease-in-out;
+			transition:all .3s ease-in-out;*/
+}
+/*
+#main-menu>.has-sub-menu>.sub-menu>.has-sub-menu>.sub-menu a:hover {
+	background: #9FB6CD;
+	border-radius: 14px;
+	color: #fff !important;
+}*/
+
+/***********************    Page : product list    *******************/
+
+.table-goods-list.table>tbody>tr>td, .table-goods-list.table>tbody>tr>th, .table-goods-list.table>tfoot>tr>td, .table-goods-list.table>tfoot>tr>th, .table-goods-list.table>thead>tr>td, .table-goods-list.table>thead>tr>th {
+	vertical-align: middle;
+	min-width: 100px;
+}
+
+.btn.btn-goods-action {
+	margin: 6px 0;
+	display: block;
+}
+
+.img-content {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border:1px solid #ddd;
+	-webkit-border-radius:50%;
+			border-radius:50%;
+    -webkit-box-shadow:0 0 10px #ddd;
+    		box-shadow:0 0 10px #ddd;
+}
+
+.goods-price-detail{
+	display: block;
+}
+
+.goods-sale-price , .discount {
+	color:#a40000;
+}
+
+.discount {
+	padding-left: 3px;
+}
+
+.btn-search {
+	margin-left: 15px;
+}
+
+#td-action-goods-list .btn {
+	width: 50%;
+}
+
+/***********************    Page : product list    *******************/
+
+@media (min-width:768px) {
+
+	#form-goods-edit #label-goods-spec {
+		position: relative;
+		left: 27px;
+		display: block;
+	}
+
+	#form-goods-edit .table-goods-style {
+		position: relative;
+		left: 22px;
+	}
+
+	.btn-add-style {
+		margin-right: 67px;
+	}
+
+	.btn-submit {
+		margin-left: 6px;
+	}
+}
+
+.table-goods-style.table>tbody>tr>td, .table-goods-style.table>tbody>tr>th, .table-goods-style.table>tfoot>tr>td, .table-goods-style.table>tfoot>tr>th, .table-goods-style.table>thead>tr>td, .table-goods-style.table>thead>tr>th {
+	vertical-align: middle;
+	min-width: 100px;
+}
+
+.btn.btn-submit ,.btn.btn-add-ok{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+/***********************    Modal    *******************/
+
+.mod-wrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	overflow: scroll;  
+	display: none;
+}
+
+.mod-content {
+	width: 900px;
+	max-width: 80%;
+	background-color: #fff;
+	padding:20px;
+	margin:50px auto;
+	position: relative;
+	-webkit-border-radius: 5px;
+			border-radius: 5px;
+	-webkit-box-shadow: 0 0 10px #707070;
+			box-shadow: 0 0 10px #707070;
+}
+
+.mod-add-style .row {
+	margin-bottom: 20px;
+}
+
+.form-control.style-control , .form-control.style-control:focus{
+	border:1px solid #ccc;
+	box-shadow: none;
+	background: transparent;
+}
+
+.btn.btn-hidden {
+	display: none;
+}
+
+/*loading css*/
+#loadding {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: rgba(255,255,255,1);
+}
+#loadding img {
+	position:relative;
+	left: 50%;
+	top: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+}
+
+.center-content{ text-align: center; }
+input[type=checkbox].ver-mid, input[type=radio].ver-mid { vertical-align: middle; margin-bottom: 2px; margin-top: 0; }
+.s_18_b_7 { font-size: 18px; font-weight: 700; }
+.s_16_b_7 { font-size: 16px; font-weight: 700; }
+.s_14_b_7 { font-size: 14px; font-weight: 700; }
+
+.barcode {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.page { float: right; }
+.page .page_now, .page .page_all { }
+.page .page_prev, .page .page_prev { }
+.page .page_enter { }
+
+/*提示器*/
+#prompter { position: absolute; left: 50%; top: -100px; padding: 0 20px; line-height: 100px; white-space: nowrap; background: rgba(0,0,0,.7); -webkit-transform:translate3D(-50%,-50%,0); transform: translate3D(-50%,-50%,0); transition: 300ms ease-out; border-radius: 10px; color: #B3C34B; font-size: 14px; z-index: 1051; opacity: 0;  }
+#prompter.prompter_show { opacity: 1; top: 50%; }
+
+/*回到顶部按钮*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: .8;
+}
+.cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}

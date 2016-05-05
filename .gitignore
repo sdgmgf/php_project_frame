@@ -1,0 +1,13 @@
+*.sublime-workspace
+.idea/
+*.DS_Store
+/application/logs/*.php
+*.db
+/uploads/
+/application/config/config.php
+/application/config/upload.php
+/.project
+/.buildpath
+/.settings/org.eclipse.wst.common.project.facet.core.xml
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.php.core.prefs
